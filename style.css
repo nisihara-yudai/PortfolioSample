@@ -34,7 +34,7 @@ body {
  }
 
  /* 
-  ・[nameタグ]のスタイルシート
+  ・[mainタグ]のスタイルシート
 　*/
 .block-main {
     text-align: center;
@@ -149,4 +149,76 @@ body {
      text-align: center;
      font-size: 15px;
      margin: 50px 0 20px;
+ }
+
+ @media screen and (max-width: 768px) {
+     body {
+         min-width: 100%;
+     }
+
+     /* 
+      * [header]のスタイルシート
+      */
+    
+      .header-block {
+        box-shadow: 0 5px 5px -5px rgb(204, 204, 204, 0.3);
+     }
+   
+     .header-block a{
+        font-size: 30px;
+     }
+
+    /* 
+     * [main]のスタイルシート
+     */
+     .block-main {
+        margin: 10px 0;
+     }
+
+    /* 
+     * [profile]のスタイルシート
+     */
+     .box-profile {
+         margin: 0 10px;
+     }
+
+     .item-list b {
+        font-size: 18px;
+     }
+
+     .item-list {
+         max-width: 100%;
+     }
+
+     .icon-list {
+         max-width: 100%;
+     }
+
+     .icon-list li {
+        margin-right: 25px;
+     }
+    
+     /* 
+      * [works]のスタイルシート
+      */
+      .box-works {
+          margin: 60px 0 0;
+          padding: 0 10px;
+      }
+
+     .works-list {
+         max-width: 100%;
+     }
+
+     .works-list li {
+         max-width: 100%;
+         float: none;
+         margin-right: 0;
+         margin-bottom: 30px;
+     }
+
+     .works-list li span {
+        font-size: 14px;
+    }
+
  }
