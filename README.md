@@ -10,7 +10,7 @@ PortfolioSample
 
 
 ## 利用している技術
-HTML / CSS
+HTML / CSS　
 使った言語やツールなどのバージョンを記載する。
 
 ## インスール方法
