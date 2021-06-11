@@ -1,10 +1,12 @@
-Name
+PortfolioSample
 ====
 
-プロジェクトの概要説明
+ポートフォリオのサンプルです。
 
 ## デモ
-デモのURLや、スクリーンショットを記載する。
+[Webサイトを見る](https://tech-is-jp-portfoliosample.herokuapp.com/)
+
+
 
 ## 利用している技術
 使った言語やツールなどのバージョンを記載する。
